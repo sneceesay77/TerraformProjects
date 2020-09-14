@@ -25,7 +25,7 @@ resource "aws_instance" "tut-server"{
     #!/bin/bash
     sudo apt update -y
     sudo apt install apache2 -y
-    sudo service start apache2
+    sudo service apache2 start
     sudo bash -c 'echo "My First Web Server" > /var/www/html/index.html'
     EOF 
 
