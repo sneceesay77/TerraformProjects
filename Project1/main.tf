@@ -9,7 +9,7 @@ resource "aws_instance" "tut-server"{
     ami = "ami-0287acb18b6d8efff"
     instance_type = "t2.micro"
     availability_zone = "eu-west-2a"
-    key_name = "tutorial-key"
+    key_name = "project2-key"
     
 
     tags = {
@@ -26,7 +26,12 @@ resource "aws_instance" "tut-server"{
     sudo apt update -y
     sudo apt install apache2 -y
     sudo service apache2 start
-    sudo bash -c 'echo "My First Web Server" > /var/www/html/index.html'
+    sudo apt-get install gnupg -y
+    wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+    sudo apt-get update -y
+    sudo apt-get install -y mongodb-org -y
+    sudo bash -c 'echo "<h1><center>Built using Terraform!</center></h1>" > /var/www/html/index.html'
     EOF 
 
 }

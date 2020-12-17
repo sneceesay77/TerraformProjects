@@ -1,0 +1,5715 @@
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   3.166 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2950000 bytes
+HTML transferred:       490000 bytes
+Requests per second:    3158.65 [#/sec] (mean)
+Time per request:       158.295 [ms] (mean)
+Time per request:       0.317 [ms] (mean, across all concurrent requests)
+Transfer rate:          909.96 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       17   90 195.3     51    2098
+Processing:    27   62  22.5     61     470
+Waiting:       26   61  20.9     61     367
+Total:         56  152 196.3    115    2183
+
+Percentage of the requests served within a certain time (ms)
+  50%    115
+  66%    130
+  75%    136
+  80%    140
+  90%    150
+  95%    176
+  98%   1119
+  99%   1142
+ 100%   2183 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   23.075 seconds
+Complete requests:      10000
+Failed requests:        24
+   (Connect: 0, Receive: 0, Length: 24, Exceptions: 0)
+Total transferred:      2943215 bytes
+HTML transferred:       488873 bytes
+Requests per second:    433.37 [#/sec] (mean)
+Time per request:       2307.472 [ms] (mean)
+Time per request:       2.307 [ms] (mean, across all concurrent requests)
+Transfer rate:          124.56 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  129 185.1     89    1315
+Processing:    36  206 1000.2    122   21230
+Waiting:       33  157 169.8    122    2544
+Total:        116  335 1012.1    213   21230
+
+Percentage of the requests served within a certain time (ms)
+  50%    213
+  66%    235
+  75%    256
+  80%    288
+  90%    415
+  95%    802
+  98%   1237
+  99%   1348
+ 100%  21230 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9932 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   22.963 seconds
+Complete requests:      10000
+Failed requests:        152
+   (Connect: 0, Receive: 0, Length: 152, Exceptions: 0)
+Total transferred:      2905160 bytes
+HTML transferred:       482552 bytes
+Requests per second:    435.48 [#/sec] (mean)
+Time per request:       4592.621 [ms] (mean)
+Time per request:       2.296 [ms] (mean, across all concurrent requests)
+Transfer rate:          123.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  227 309.7    112    1415
+Processing:    71  651 2870.6    203   22790
+Waiting:       70  342 1493.1    200   22790
+Total:        140  877 2864.2    349   22856
+
+Percentage of the requests served within a certain time (ms)
+  50%    349
+  66%    417
+  75%    483
+  80%    531
+  90%   1307
+  95%   1427
+  98%  20191
+  99%  20298
+ 100%  22856 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   22.810 seconds
+Complete requests:      10000
+Failed requests:        75
+   (Connect: 0, Receive: 0, Length: 75, Exceptions: 0)
+Total transferred:      2927875 bytes
+HTML transferred:       486325 bytes
+Requests per second:    438.39 [#/sec] (mean)
+Time per request:       5702.621 [ms] (mean)
+Time per request:       2.281 [ms] (mean, across all concurrent requests)
+Transfer rate:          125.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  262 354.1    105    1575
+Processing:    50  490 2030.8    275   22551
+Waiting:       49  337 1042.5    274   22551
+Total:        117  752 2049.2    376   22687
+
+Percentage of the requests served within a certain time (ms)
+  50%    376
+  66%    489
+  75%    598
+  80%    803
+  90%   1396
+  95%   1545
+  98%   1946
+  99%   4202
+ 100%  22687 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   23.158 seconds
+Complete requests:      10000
+Failed requests:        100
+   (Connect: 0, Receive: 0, Length: 100, Exceptions: 0)
+Total transferred:      2922860 bytes
+HTML transferred:       485492 bytes
+Requests per second:    431.82 [#/sec] (mean)
+Time per request:       6947.308 [ms] (mean)
+Time per request:       2.316 [ms] (mean, across all concurrent requests)
+Transfer rate:          123.26 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  316 374.7    170    2216
+Processing:    67  686 2457.5    268   22806
+Waiting:       66  482 1428.1    265   22806
+Total:        165 1003 2463.0    437   23077
+
+Percentage of the requests served within a certain time (ms)
+  50%    437
+  66%    665
+  75%    884
+  80%   1344
+  90%   1519
+  95%   2032
+  98%   3079
+  99%  20411
+ 100%  23077 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   24.853 seconds
+Complete requests:      10000
+Failed requests:        225
+   (Connect: 0, Receive: 0, Length: 225, Exceptions: 0)
+Total transferred:      2883625 bytes
+HTML transferred:       478975 bytes
+Requests per second:    402.36 [#/sec] (mean)
+Time per request:       8698.581 [ms] (mean)
+Time per request:       2.485 [ms] (mean, across all concurrent requests)
+Transfer rate:          113.31 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  367 425.5    156    1714
+Processing:    48  994 3531.7    306   24554
+Waiting:        0  535 1848.6    302   24554
+Total:        120 1361 3532.2    535   24792
+
+Percentage of the requests served within a certain time (ms)
+  50%    535
+  66%    769
+  75%   1330
+  80%   1427
+  90%   1674
+  95%   2458
+  98%  20536
+  99%  21317
+ 100%  24792 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   27.316 seconds
+Complete requests:      10000
+Failed requests:        225
+   (Connect: 0, Receive: 0, Length: 225, Exceptions: 0)
+Total transferred:      2883920 bytes
+HTML transferred:       479024 bytes
+Requests per second:    366.09 [#/sec] (mean)
+Time per request:       10926.314 [ms] (mean)
+Time per request:       2.732 [ms] (mean, across all concurrent requests)
+Transfer rate:          103.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  389 416.9    245    2371
+Processing:    64 1164 3899.7    337   25443
+Waiting:       61  705 2518.0    333   25442
+Total:        150 1553 3888.9    568   25925
+
+Percentage of the requests served within a certain time (ms)
+  50%    568
+  66%    970
+  75%   1391
+  80%   1466
+  90%   1801
+  95%   2489
+  98%  20735
+  99%  21609
+ 100%  25925 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9576 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   30.038 seconds
+Complete requests:      10000
+Failed requests:        225
+   (Connect: 0, Receive: 0, Length: 225, Exceptions: 0)
+Total transferred:      2883625 bytes
+HTML transferred:       478975 bytes
+Requests per second:    332.91 [#/sec] (mean)
+Time per request:       15018.978 [ms] (mean)
+Time per request:       3.004 [ms] (mean, across all concurrent requests)
+Transfer rate:          93.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  496 415.1    439    3116
+Processing:    69 1613 4952.2    354   28197
+Waiting:        0 1153 3999.1    352   28197
+Total:        170 2109 4945.0    757   28780
+
+Percentage of the requests served within a certain time (ms)
+  50%    757
+  66%   1265
+  75%   1467
+  80%   1605
+  90%   1992
+  95%  20208
+  98%  23576
+  99%  27386
+ 100%  28780 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 19993 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   26.303 seconds
+Complete requests:      20000
+Failed requests:        22
+   (Connect: 0, Receive: 0, Length: 22, Exceptions: 0)
+Total transferred:      5893510 bytes
+HTML transferred:       978922 bytes
+Requests per second:    760.36 [#/sec] (mean)
+Time per request:       1315.172 [ms] (mean)
+Time per request:       1.315 [ms] (mean, across all concurrent requests)
+Transfer rate:          218.81 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  140 198.5     97    3197
+Processing:    55  184 676.7    138   20301
+Waiting:       55  158 128.6    134    6182
+Total:         97  325 702.9    242   20301
+
+Percentage of the requests served within a certain time (ms)
+  50%    242
+  66%    266
+  75%    279
+  80%    301
+  90%    388
+  95%    790
+  98%   1262
+  99%   1333
+ 100%  20301 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   27.018 seconds
+Complete requests:      20000
+Failed requests:        91
+   (Connect: 0, Receive: 0, Length: 91, Exceptions: 0)
+Total transferred:      5873155 bytes
+HTML transferred:       975541 bytes
+Requests per second:    740.24 [#/sec] (mean)
+Time per request:       2026.367 [ms] (mean)
+Time per request:       1.351 [ms] (mean, across all concurrent requests)
+Transfer rate:          212.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  200 309.3    104    3240
+Processing:    49  360 1430.5    139   21214
+Waiting:       48  264 482.6    135   10179
+Total:        130  559 1451.7    251   21214
+
+Percentage of the requests served within a certain time (ms)
+  50%    251
+  66%    312
+  75%    391
+  80%    502
+  90%   1245
+  95%   1470
+  98%   2629
+  99%   3411
+ 100%  21214 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   26.396 seconds
+Complete requests:      20000
+Failed requests:        71
+   (Connect: 0, Receive: 0, Length: 71, Exceptions: 0)
+Total transferred:      5889380 bytes
+HTML transferred:       978236 bytes
+Requests per second:    757.70 [#/sec] (mean)
+Time per request:       2639.580 [ms] (mean)
+Time per request:       1.320 [ms] (mean, across all concurrent requests)
+Transfer rate:          217.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  257 498.1    103    3438
+Processing:    47  318 932.4    197   21309
+Waiting:       47  278 380.6    194   20663
+Total:        133  575 1047.3    306   21309
+
+Percentage of the requests served within a certain time (ms)
+  50%    306
+  66%    389
+  75%    473
+  80%    579
+  90%   1298
+  95%   1610
+  98%   3327
+  99%   3386
+ 100%  21309 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   26.471 seconds
+Complete requests:      20000
+Failed requests:        22
+   (Connect: 0, Receive: 0, Length: 22, Exceptions: 0)
+Total transferred:      5893510 bytes
+HTML transferred:       978922 bytes
+Requests per second:    755.54 [#/sec] (mean)
+Time per request:       3308.886 [ms] (mean)
+Time per request:       1.324 [ms] (mean, across all concurrent requests)
+Transfer rate:          217.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  327 509.1    131    4217
+Processing:    49  349 916.1    199   21315
+Waiting:       49  323 630.2    195   20650
+Total:         88  676 1044.4    335   21701
+
+Percentage of the requests served within a certain time (ms)
+  50%    335
+  66%    465
+  75%    669
+  80%   1006
+  90%   1420
+  95%   2062
+  98%   3303
+  99%   3540
+ 100%  21701 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   25.731 seconds
+Complete requests:      20000
+Failed requests:        93
+   (Connect: 0, Receive: 0, Length: 93, Exceptions: 0)
+Total transferred:      5872565 bytes
+HTML transferred:       975443 bytes
+Requests per second:    777.27 [#/sec] (mean)
+Time per request:       3859.651 [ms] (mean)
+Time per request:       1.287 [ms] (mean, across all concurrent requests)
+Transfer rate:          222.88 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  288 443.2     99    3559
+Processing:    39  448 1600.8    262   23487
+Waiting:       39  352 807.4    261   21905
+Total:         81  736 1654.7    376   23898
+
+Percentage of the requests served within a certain time (ms)
+  50%    376
+  66%    499
+  75%    622
+  80%    724
+  90%   1390
+  95%   1657
+  98%   3431
+  99%   3663
+ 100%  23898 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   26.396 seconds
+Complete requests:      20000
+Failed requests:        22
+   (Connect: 0, Receive: 0, Length: 22, Exceptions: 0)
+Total transferred:      5893510 bytes
+HTML transferred:       978922 bytes
+Requests per second:    757.70 [#/sec] (mean)
+Time per request:       4619.216 [ms] (mean)
+Time per request:       1.320 [ms] (mean, across all concurrent requests)
+Transfer rate:          218.04 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  401 569.9    115    3678
+Processing:    48  555 1228.1    274   23363
+Waiting:       48  530 1032.7    271   19029
+Total:        119  956 1394.0    439   23363
+
+Percentage of the requests served within a certain time (ms)
+  50%    439
+  66%    727
+  75%   1328
+  80%   1411
+  90%   2139
+  95%   3319
+  98%   4627
+  99%   6296
+ 100%  23363 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   46.365 seconds
+Complete requests:      20000
+Failed requests:        232
+   (Connect: 0, Receive: 0, Length: 232, Exceptions: 0)
+Total transferred:      5831855 bytes
+HTML transferred:       968681 bytes
+Requests per second:    431.36 [#/sec] (mean)
+Time per request:       9273.031 [ms] (mean)
+Time per request:       2.318 [ms] (mean, across all concurrent requests)
+Transfer rate:          122.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  445 595.3    160    4109
+Processing:    36 1113 3764.0    295   42686
+Waiting:       36  864 3008.6    292   29907
+Total:         69 1558 3794.8    586   42686
+
+Percentage of the requests served within a certain time (ms)
+  50%    586
+  66%   1071
+  75%   1387
+  80%   1532
+  90%   2399
+  95%   4156
+  98%  20534
+  99%  23723
+ 100%  42686 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   26.408 seconds
+Complete requests:      20000
+Failed requests:        61
+   (Connect: 0, Receive: 0, Length: 61, Exceptions: 0)
+Total transferred:      5882005 bytes
+HTML transferred:       977011 bytes
+Requests per second:    757.34 [#/sec] (mean)
+Time per request:       5941.821 [ms] (mean)
+Time per request:       1.320 [ms] (mean, across all concurrent requests)
+Transfer rate:          217.51 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  486 698.9    144    5259
+Processing:    46  732 1881.4    269   23648
+Waiting:       46  668 1523.5    268   21324
+Total:         85 1218 2053.6    463   23648
+
+Percentage of the requests served within a certain time (ms)
+  50%    463
+  66%    884
+  75%   1404
+  80%   1565
+  90%   2902
+  95%   3876
+  98%   7677
+  99%  11708
+ 100%  23648 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+Completed 20000 requests
+Finished 20000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   64.800 seconds
+Complete requests:      20000
+Failed requests:        450
+   (Connect: 0, Receive: 0, Length: 450, Exceptions: 0)
+Total transferred:      5768135 bytes
+HTML transferred:       958097 bytes
+Requests per second:    308.64 [#/sec] (mean)
+Time per request:       16199.932 [ms] (mean)
+Time per request:       3.240 [ms] (mean, across all concurrent requests)
+Transfer rate:          86.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  496 662.9    200    3601
+Processing:    36 1913 7467.3    347   61858
+Waiting:        0 1124 5051.6    342   61858
+Total:         74 2410 7474.6    643   63121
+
+Percentage of the requests served within a certain time (ms)
+  50%    643
+  66%   1328
+  75%   1524
+  80%   1633
+  90%   2609
+  95%   4623
+  98%  27463
+  99%  51459
+ 100%  63121 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+Completed 30000 requests
+Finished 30000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   8.751 seconds
+Complete requests:      30000
+Failed requests:        0
+Total transferred:      8850000 bytes
+HTML transferred:       1470000 bytes
+Requests per second:    3428.14 [#/sec] (mean)
+Time per request:       145.852 [ms] (mean)
+Time per request:       0.292 [ms] (mean, across all concurrent requests)
+Transfer rate:          987.60 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       29   71  89.6     63    1110
+Processing:    30   69  37.6     66     644
+Waiting:       30   69  36.3     66     644
+Total:         65  140  98.1    130    1442
+
+Percentage of the requests served within a certain time (ms)
+  50%    130
+  66%    137
+  75%    142
+  80%    145
+  90%    156
+  95%    171
+  98%    218
+  99%    540
+ 100%   1442 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+Completed 30000 requests
+Finished 30000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   28.636 seconds
+Complete requests:      30000
+Failed requests:        5
+   (Connect: 0, Receive: 0, Length: 5, Exceptions: 0)
+Total transferred:      8849410 bytes
+HTML transferred:       1469902 bytes
+Requests per second:    1047.62 [#/sec] (mean)
+Time per request:       954.547 [ms] (mean)
+Time per request:       0.955 [ms] (mean, across all concurrent requests)
+Transfer rate:          301.78 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  132 222.4     86    7146
+Processing:    65  141 187.4    123   20344
+Waiting:       63  138  88.5    121    1375
+Total:        103  274 291.8    212   20344
+
+Percentage of the requests served within a certain time (ms)
+  50%    212
+  66%    226
+  75%    238
+  80%    255
+  90%    337
+  95%    671
+  98%   1218
+  99%   1253
+ 100%  20344 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+Completed 30000 requests
+Finished 30000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   29.158 seconds
+Complete requests:      30000
+Failed requests:        32
+   (Connect: 0, Receive: 0, Length: 32, Exceptions: 0)
+Total transferred:      8840855 bytes
+HTML transferred:       1468481 bytes
+Requests per second:    1028.88 [#/sec] (mean)
+Time per request:       1457.902 [ms] (mean)
+Time per request:       0.972 [ms] (mean, across all concurrent requests)
+Transfer rate:          296.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  197 353.4     87    8240
+Processing:    48  259 720.2    185   20368
+Waiting:       48  236 321.5    185   20202
+Total:        121  456 800.2    277   20522
+
+Percentage of the requests served within a certain time (ms)
+  50%    277
+  66%    305
+  75%    373
+  80%    425
+  90%   1161
+  95%   1311
+  98%   1619
+  99%   2312
+ 100%  20522 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+Completed 30000 requests
+Finished 30000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   29.590 seconds
+Complete requests:      30000
+Failed requests:        20
+   (Connect: 0, Receive: 0, Length: 20, Exceptions: 0)
+Total transferred:      8844100 bytes
+HTML transferred:       1469020 bytes
+Requests per second:    1013.87 [#/sec] (mean)
+Time per request:       1972.644 [ms] (mean)
+Time per request:       0.986 [ms] (mean, across all concurrent requests)
+Transfer rate:          291.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  240 418.2    109    7548
+Processing:    45  353 867.3    196   27496
+Waiting:       45  335 688.4    194   20418
+Total:        130  592 963.3    322   27496
+
+Percentage of the requests served within a certain time (ms)
+  50%    322
+  66%    384
+  75%    483
+  80%    584
+  90%   1284
+  95%   1519
+  98%   3314
+  99%   4267
+ 100%  27496 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+Completed 30000 requests
+Finished 30000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   28.545 seconds
+Complete requests:      30000
+Failed requests:        55
+   (Connect: 0, Receive: 0, Length: 55, Exceptions: 0)
+Total transferred:      8834070 bytes
+HTML transferred:       1467354 bytes
+Requests per second:    1050.97 [#/sec] (mean)
+Time per request:       2378.764 [ms] (mean)
+Time per request:       0.952 [ms] (mean, across all concurrent requests)
+Transfer rate:          302.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  294 517.7    101    7620
+Processing:    62  364 988.9    263   21687
+Waiting:       62  325 478.8    262   21687
+Total:        146  658 1113.1    371   22014
+
+Percentage of the requests served within a certain time (ms)
+  50%    371
+  66%    484
+  75%    585
+  80%    666
+  90%   1369
+  95%   1562
+  98%   2432
+  99%   3421
+ 100%  22014 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+Completed 30000 requests
+Finished 30000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   30.492 seconds
+Complete requests:      30000
+Failed requests:        118
+   (Connect: 0, Receive: 0, Length: 118, Exceptions: 0)
+Total transferred:      8815190 bytes
+HTML transferred:       1464218 bytes
+Requests per second:    983.86 [#/sec] (mean)
+Time per request:       3049.201 [ms] (mean)
+Time per request:       1.016 [ms] (mean, across all concurrent requests)
+Transfer rate:          282.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  335 571.9    157    7704
+Processing:    49  601 1806.1    298   28672
+Waiting:       49  517 1276.5    295   28672
+Total:        118  936 1883.4    437   29502
+
+Percentage of the requests served within a certain time (ms)
+  50%    437
+  66%    616
+  75%    830
+  80%   1204
+  90%   1599
+  95%   2824
+  98%   4436
+  99%   7499
+ 100%  29502 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 29995 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 29688 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+Completed 30000 requests
+Finished 30000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   51.668 seconds
+Complete requests:      30000
+Failed requests:        370
+   (Connect: 0, Receive: 0, Length: 370, Exceptions: 0)
+Total transferred:      8748520 bytes
+HTML transferred:       1453144 bytes
+Requests per second:    580.63 [#/sec] (mean)
+Time per request:       7750.187 [ms] (mean)
+Time per request:       1.722 [ms] (mean, across all concurrent requests)
+Transfer rate:          165.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  515 830.3    160    7704
+Processing:    46  936 3777.5    334   51659
+Waiting:        0  593 1623.3    330   40806
+Total:         92 1451 3843.1    571   51659
+
+Percentage of the requests served within a certain time (ms)
+  50%    571
+  66%   1006
+  75%   1440
+  80%   1571
+  90%   2395
+  95%   3524
+  98%   7712
+  99%  20889
+ 100%  51659 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 3000 requests
+Completed 6000 requests
+Completed 9000 requests
+Completed 12000 requests
+Completed 15000 requests
+Completed 18000 requests
+Completed 21000 requests
+Completed 24000 requests
+Completed 27000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 29926 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+Completed 40000 requests
+Finished 40000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   21.931 seconds
+Complete requests:      40000
+Failed requests:        0
+Total transferred:      11800000 bytes
+HTML transferred:       1960000 bytes
+Requests per second:    1823.89 [#/sec] (mean)
+Time per request:       274.139 [ms] (mean)
+Time per request:       0.548 [ms] (mean, across all concurrent requests)
+Transfer rate:          525.44 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       14   24  33.4     18    1075
+Processing:    14   24  14.0     19     385
+Waiting:        9   24  12.3     19     198
+Total:         29   48  39.2     38    1110
+
+Percentage of the requests served within a certain time (ms)
+  50%     38
+  66%     42
+  75%     45
+  80%     49
+  90%     74
+  95%    108
+  98%    128
+  99%    134
+ 100%   1110 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+Completed 40000 requests
+Finished 40000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   32.282 seconds
+Complete requests:      40000
+Failed requests:        10
+   (Connect: 0, Receive: 0, Length: 10, Exceptions: 0)
+Total transferred:      11797935 bytes
+HTML transferred:       1959657 bytes
+Requests per second:    1239.08 [#/sec] (mean)
+Time per request:       807.050 [ms] (mean)
+Time per request:       0.807 [ms] (mean, across all concurrent requests)
+Transfer rate:          356.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  153 567.7     87    7560
+Processing:    56  131 286.7    108   20194
+Waiting:       56  126 107.5    108    2851
+Total:         95  284 636.9    198   20194
+
+Percentage of the requests served within a certain time (ms)
+  50%    198
+  66%    213
+  75%    232
+  80%    244
+  90%    289
+  95%    369
+  98%   1200
+  99%   1275
+ 100%  20194 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 39566 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 39966 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 39314 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 39971 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+Completed 40000 requests
+Finished 40000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   33.324 seconds
+Complete requests:      40000
+Failed requests:        146
+   (Connect: 0, Receive: 0, Length: 146, Exceptions: 0)
+Total transferred:      11756930 bytes
+HTML transferred:       1952846 bytes
+Requests per second:    1200.35 [#/sec] (mean)
+Time per request:       2915.808 [ms] (mean)
+Time per request:       0.833 [ms] (mean, across all concurrent requests)
+Transfer rate:          344.54 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  479 906.6    133    7869
+Processing:    35  628 1823.4    322   29295
+Waiting:       35  547 1299.7    321   29295
+Total:         64 1107 2059.8    499   31442
+
+Percentage of the requests served within a certain time (ms)
+  50%    499
+  66%    719
+  75%   1326
+  80%   1447
+  90%   1986
+  95%   3489
+  98%   7019
+  99%   8085
+ 100%  31442 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 39971 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 39271 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 4000 requests
+Completed 8000 requests
+Completed 12000 requests
+Completed 16000 requests
+Completed 20000 requests
+Completed 24000 requests
+Completed 28000 requests
+Completed 32000 requests
+Completed 36000 requests
+Completed 40000 requests
+Finished 40000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   72.205 seconds
+Complete requests:      40000
+Failed requests:        475
+   (Connect: 0, Receive: 0, Length: 475, Exceptions: 0)
+Total transferred:      11659875 bytes
+HTML transferred:       1936725 bytes
+Requests per second:    553.97 [#/sec] (mean)
+Time per request:       9025.687 [ms] (mean)
+Time per request:       1.805 [ms] (mean, across all concurrent requests)
+Transfer rate:          157.70 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  595 987.3    212    7952
+Processing:    38 1417 6097.6    352   70548
+Waiting:        0  972 4264.2    351   60310
+Total:         69 2012 6157.3    676   70548
+
+Percentage of the requests served within a certain time (ms)
+  50%    676
+  66%   1317
+  75%   1497
+  80%   1681
+  90%   3143
+  95%   4011
+  98%  20671
+  99%  46531
+ 100%  70548 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+Completed 50000 requests
+Finished 50000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   22.050 seconds
+Complete requests:      50000
+Failed requests:        0
+Total transferred:      14750000 bytes
+HTML transferred:       2450000 bytes
+Requests per second:    2267.55 [#/sec] (mean)
+Time per request:       220.503 [ms] (mean)
+Time per request:       0.441 [ms] (mean, across all concurrent requests)
+Transfer rate:          653.25 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       14   29  63.1     20    2073
+Processing:    15   28  28.2     21     493
+Waiting:       15   28  27.8     21     493
+Total:         31   57  71.7     42    2098
+
+Percentage of the requests served within a certain time (ms)
+  50%     42
+  66%     46
+  75%     52
+  80%     58
+  90%     85
+  95%    117
+  98%    132
+  99%    172
+ 100%   2098 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+Completed 50000 requests
+Finished 50000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   34.961 seconds
+Complete requests:      50000
+Failed requests:        10
+   (Connect: 0, Receive: 0, Length: 10, Exceptions: 0)
+Total transferred:      14747050 bytes
+HTML transferred:       2449510 bytes
+Requests per second:    1430.15 [#/sec] (mean)
+Time per request:       699.226 [ms] (mean)
+Time per request:       0.699 [ms] (mean, across all concurrent requests)
+Transfer rate:          411.92 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  145 341.1     86    7466
+Processing:    39  146 305.5    124   20194
+Waiting:       38  142 113.3    123    2802
+Total:         82  291 457.6    212   20194
+
+Percentage of the requests served within a certain time (ms)
+  50%    212
+  66%    230
+  75%    251
+  80%    267
+  90%    333
+  95%    723
+  98%   1230
+  99%   1296
+ 100%  20194 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 49993 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+Completed 50000 requests
+Finished 50000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   35.039 seconds
+Complete requests:      50000
+Failed requests:        49
+   (Connect: 0, Receive: 0, Length: 49, Exceptions: 0)
+Total transferred:      14735545 bytes
+HTML transferred:       2447599 bytes
+Requests per second:    1426.97 [#/sec] (mean)
+Time per request:       1401.575 [ms] (mean)
+Time per request:       0.701 [ms] (mean, across all concurrent requests)
+Transfer rate:          410.69 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  269 527.8     95   11478
+Processing:    45  276 777.1    207   23430
+Waiting:       45  254 441.4    206   23232
+Total:        101  545 941.2    306   23430
+
+Percentage of the requests served within a certain time (ms)
+  50%    306
+  66%    367
+  75%    444
+  80%    498
+  90%   1296
+  95%   1441
+  98%   2386
+  99%   3355
+ 100%  23430 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+Completed 50000 requests
+Finished 50000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   35.283 seconds
+Complete requests:      50000
+Failed requests:        20
+   (Connect: 0, Receive: 0, Length: 20, Exceptions: 0)
+Total transferred:      14744100 bytes
+HTML transferred:       2449020 bytes
+Requests per second:    1417.12 [#/sec] (mean)
+Time per request:       1764.142 [ms] (mean)
+Time per request:       0.706 [ms] (mean, across all concurrent requests)
+Transfer rate:          408.09 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  316 572.1    106    8063
+Processing:    41  406 737.0    268   20148
+Waiting:       41  396 623.5    267   19977
+Total:        123  721 954.3    384   20364
+
+Percentage of the requests served within a certain time (ms)
+  50%    384
+  66%    526
+  75%    619
+  80%    778
+  90%   1438
+  95%   2100
+  98%   3415
+  99%   4224
+ 100%  20364 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 49597 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 49047 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 49026 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 49149 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Completed 45000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 49847 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 54982 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+Completed 60000 requests
+Finished 60000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   38.143 seconds
+Complete requests:      60000
+Failed requests:        7
+   (Connect: 0, Receive: 0, Length: 7, Exceptions: 0)
+Total transferred:      17697935 bytes
+HTML transferred:       2939657 bytes
+Requests per second:    1573.03 [#/sec] (mean)
+Time per request:       635.714 [ms] (mean)
+Time per request:       0.636 [ms] (mean, across all concurrent requests)
+Transfer rate:          453.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  137 220.4     87    7416
+Processing:    45  160 273.9    130   20245
+Waiting:       44  156 166.8    129    9934
+Total:         94  297 353.3    221   20245
+
+Percentage of the requests served within a certain time (ms)
+  50%    221
+  66%    237
+  75%    256
+  80%    276
+  90%    354
+  95%    881
+  98%   1239
+  99%   1290
+ 100%  20245 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+Completed 60000 requests
+Finished 60000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   38.253 seconds
+Complete requests:      60000
+Failed requests:        35
+   (Connect: 0, Receive: 0, Length: 35, Exceptions: 0)
+Total transferred:      17690855 bytes
+HTML transferred:       2938481 bytes
+Requests per second:    1568.51 [#/sec] (mean)
+Time per request:       956.322 [ms] (mean)
+Time per request:       0.638 [ms] (mean, across all concurrent requests)
+Transfer rate:          451.63 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  200 369.5     92   15494
+Processing:    65  242 547.1    187   32329
+Waiting:       65  231 298.8    187   32329
+Total:        130  443 660.5    288   32393
+
+Percentage of the requests served within a certain time (ms)
+  50%    288
+  66%    318
+  75%    373
+  80%    417
+  90%    920
+  95%   1306
+  98%   1565
+  99%   2338
+ 100%  32393 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 59931 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 59060 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+Completed 60000 requests
+Finished 60000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   40.208 seconds
+Complete requests:      60000
+Failed requests:        96
+   (Connect: 0, Receive: 0, Length: 96, Exceptions: 0)
+Total transferred:      17671975 bytes
+HTML transferred:       2935345 bytes
+Requests per second:    1492.25 [#/sec] (mean)
+Time per request:       2010.391 [ms] (mean)
+Time per request:       0.670 [ms] (mean, across all concurrent requests)
+Transfer rate:          429.21 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  401 816.1    131   15913
+Processing:    26  550 1334.8    267   34368
+Waiting:        0  510 1058.1    264   34368
+Total:         72  951 1579.8    432   34541
+
+Percentage of the requests served within a certain time (ms)
+  50%    432
+  66%    630
+  75%   1124
+  80%   1323
+  90%   2220
+  95%   3371
+  98%   4507
+  99%   7468
+ 100%  34541 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+Completed 60000 requests
+Finished 60000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   39.597 seconds
+Complete requests:      60000
+Failed requests:        56
+   (Connect: 0, Receive: 0, Length: 56, Exceptions: 0)
+Total transferred:      17683775 bytes
+HTML transferred:       2937305 bytes
+Requests per second:    1515.26 [#/sec] (mean)
+Time per request:       2309.835 [ms] (mean)
+Time per request:       0.660 [ms] (mean, across all concurrent requests)
+Transfer rate:          436.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  490 1099.4    158   15847
+Processing:    67  585 1206.5    319   37907
+Waiting:        0  564 1040.8    318   37907
+Total:        145 1075 1657.3    514   38090
+
+Percentage of the requests served within a certain time (ms)
+  50%    514
+  66%    718
+  75%   1284
+  80%   1416
+  90%   2165
+  95%   3551
+  98%   5285
+  99%   7804
+ 100%  38090 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+Completed 60000 requests
+Finished 60000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   58.272 seconds
+Complete requests:      60000
+Failed requests:        258
+   (Connect: 0, Receive: 0, Length: 258, Exceptions: 0)
+Total transferred:      17623890 bytes
+HTML transferred:       2927358 bytes
+Requests per second:    1029.65 [#/sec] (mean)
+Time per request:       3884.800 [ms] (mean)
+Time per request:       0.971 [ms] (mean, across all concurrent requests)
+Transfer rate:          295.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  514 1066.4    157   16084
+Processing:    61  720 2415.3    336   45192
+Waiting:       61  616 1799.0    335   44668
+Total:        135 1234 2645.7    551   52199
+
+Percentage of the requests served within a certain time (ms)
+  50%    551
+  66%    753
+  75%   1364
+  80%   1453
+  90%   2067
+  95%   3497
+  98%   7526
+  99%  15626
+ 100%  52199 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+Completed 60000 requests
+Finished 60000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   39.930 seconds
+Complete requests:      60000
+Failed requests:        138
+   (Connect: 0, Receive: 0, Length: 138, Exceptions: 0)
+Total transferred:      17659290 bytes
+HTML transferred:       2933238 bytes
+Requests per second:    1502.63 [#/sec] (mean)
+Time per request:       2994.755 [ms] (mean)
+Time per request:       0.666 [ms] (mean, across all concurrent requests)
+Transfer rate:          431.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  586 1139.0    183   15917
+Processing:    64  795 1865.2    356   35430
+Waiting:       64  745 1587.4    355   34256
+Total:        131 1380 2210.2    643   35430
+
+Percentage of the requests served within a certain time (ms)
+  50%    643
+  66%   1144
+  75%   1472
+  80%   1654
+  90%   3211
+  95%   4257
+  98%   7953
+  99%  11667
+ 100%  35430 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 59582 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+Completed 70000 requests
+Finished 70000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   41.870 seconds
+Complete requests:      70000
+Failed requests:        0
+Total transferred:      20650000 bytes
+HTML transferred:       3430000 bytes
+Requests per second:    1671.83 [#/sec] (mean)
+Time per request:       299.073 [ms] (mean)
+Time per request:       0.598 [ms] (mean, across all concurrent requests)
+Transfer rate:          481.63 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       14  244 2152.0     40   31714
+Processing:    14   51  30.7     50     610
+Waiting:       14   51  29.9     50     470
+Total:         29  295 2151.9     92   31780
+
+Percentage of the requests served within a certain time (ms)
+  50%     92
+  66%    125
+  75%    131
+  80%    135
+  90%    147
+  95%    164
+  98%    202
+  99%   7146
+ 100%  31780 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+Completed 70000 requests
+Finished 70000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   45.575 seconds
+Complete requests:      70000
+Failed requests:        5
+   (Connect: 0, Receive: 0, Length: 5, Exceptions: 0)
+Total transferred:      20648525 bytes
+HTML transferred:       3429755 bytes
+Requests per second:    1535.94 [#/sec] (mean)
+Time per request:       651.065 [ms] (mean)
+Time per request:       0.651 [ms] (mean, across all concurrent requests)
+Transfer rate:          442.45 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  156 323.2     86    8066
+Processing:    23  190 471.5    126   20302
+Waiting:       22  188 439.4    125   19660
+Total:         68  346 608.9    216   20649
+
+Percentage of the requests served within a certain time (ms)
+  50%    216
+  66%    237
+  75%    264
+  80%    293
+  90%    453
+  95%   1201
+  98%   1535
+  99%   2155
+ 100%  20649 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 69979 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+Completed 70000 requests
+Finished 70000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   40.978 seconds
+Complete requests:      70000
+Failed requests:        32
+   (Connect: 0, Receive: 0, Length: 32, Exceptions: 0)
+Total transferred:      20641445 bytes
+HTML transferred:       3428579 bytes
+Requests per second:    1708.22 [#/sec] (mean)
+Time per request:       1170.812 [ms] (mean)
+Time per request:       0.585 [ms] (mean, across all concurrent requests)
+Transfer rate:          491.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  288 874.1     96   16594
+Processing:    41  278 515.5    222   21305
+Waiting:       41  268 296.6    222   12931
+Total:         93  566 1018.0    333   21305
+
+Percentage of the requests served within a certain time (ms)
+  50%    333
+  66%    388
+  75%    471
+  80%    529
+  90%   1298
+  95%   1432
+  98%   2159
+  99%   3355
+ 100%  21305 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+Completed 70000 requests
+Finished 70000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   41.003 seconds
+Complete requests:      70000
+Failed requests:        92
+   (Connect: 0, Receive: 0, Length: 92, Exceptions: 0)
+Total transferred:      20622860 bytes
+HTML transferred:       3425492 bytes
+Requests per second:    1707.17 [#/sec] (mean)
+Time per request:       1464.408 [ms] (mean)
+Time per request:       0.586 [ms] (mean, across all concurrent requests)
+Transfer rate:          491.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  347 925.9    107   15999
+Processing:    61  379 966.3    275   25343
+Waiting:        0  351 627.8    274   25343
+Total:        139  726 1345.4    390   28288
+
+Percentage of the requests served within a certain time (ms)
+  50%    390
+  66%    511
+  75%    612
+  80%    701
+  90%   1398
+  95%   1638
+  98%   3372
+  99%   3886
+ 100%  28288 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 69383 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 69798 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 27722 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+Completed 70000 requests
+Finished 70000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   68.279 seconds
+Complete requests:      70000
+Failed requests:        345
+   (Connect: 0, Receive: 0, Length: 345, Exceptions: 0)
+Total transferred:      20550585 bytes
+HTML transferred:       3413487 bytes
+Requests per second:    1025.21 [#/sec] (mean)
+Time per request:       4389.364 [ms] (mean)
+Time per request:       0.975 [ms] (mean, across all concurrent requests)
+Transfer rate:          293.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  609 1356.4    190   16142
+Processing:    65  870 3238.0    373   53102
+Waiting:        0  718 2243.5    371   51500
+Total:        139 1479 3503.9    663   63230
+
+Percentage of the requests served within a certain time (ms)
+  50%    663
+  66%    959
+  75%   1442
+  80%   1571
+  90%   2413
+  95%   3774
+  98%   8052
+  99%  20384
+ 100%  63230 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 7000 requests
+Completed 14000 requests
+Completed 21000 requests
+Completed 28000 requests
+Completed 35000 requests
+Completed 42000 requests
+Completed 49000 requests
+Completed 56000 requests
+Completed 63000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 69090 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 18546 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+Completed 80000 requests
+Finished 80000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   45.340 seconds
+Complete requests:      80000
+Failed requests:        7
+   (Connect: 0, Receive: 0, Length: 7, Exceptions: 0)
+Total transferred:      23597935 bytes
+HTML transferred:       3919657 bytes
+Requests per second:    1764.47 [#/sec] (mean)
+Time per request:       566.744 [ms] (mean)
+Time per request:       0.567 [ms] (mean, across all concurrent requests)
+Transfer rate:          508.27 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  154 257.3     97    7380
+Processing:    34  147 222.7    123   20271
+Waiting:       34  144 118.4    123    4619
+Total:        111  300 341.0    223   20271
+
+Percentage of the requests served within a certain time (ms)
+  50%    223
+  66%    242
+  75%    258
+  80%    278
+  90%    345
+  95%   1051
+  98%   1249
+  99%   1290
+ 100%  20271 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+Completed 80000 requests
+Finished 80000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   44.439 seconds
+Complete requests:      80000
+Failed requests:        68
+   (Connect: 0, Receive: 0, Length: 68, Exceptions: 0)
+Total transferred:      23581120 bytes
+HTML transferred:       3916864 bytes
+Requests per second:    1800.23 [#/sec] (mean)
+Time per request:       833.228 [ms] (mean)
+Time per request:       0.555 [ms] (mean, across all concurrent requests)
+Transfer rate:          518.21 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  208 487.3     90   15656
+Processing:    24  229 612.2    178   21387
+Waiting:        0  211 212.7    178   15854
+Total:         89  437 782.2    271   21387
+
+Percentage of the requests served within a certain time (ms)
+  50%    271
+  66%    302
+  75%    355
+  80%    397
+  90%    917
+  95%   1285
+  98%   1486
+  99%   2154
+ 100%  21387 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 79461 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+Completed 80000 requests
+Finished 80000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   43.687 seconds
+Complete requests:      80000
+Failed requests:        68
+   (Connect: 0, Receive: 0, Length: 68, Exceptions: 0)
+Total transferred:      23579940 bytes
+HTML transferred:       3916668 bytes
+Requests per second:    1831.19 [#/sec] (mean)
+Time per request:       1365.232 [ms] (mean)
+Time per request:       0.546 [ms] (mean, across all concurrent requests)
+Transfer rate:          527.09 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  324 761.4    102   15913
+Processing:    39  356 765.6    263   27419
+Waiting:       39  337 485.0    262   21491
+Total:        102  679 1091.8    377   27419
+
+Percentage of the requests served within a certain time (ms)
+  50%    377
+  66%    483
+  75%    583
+  80%    682
+  90%   1386
+  95%   1657
+  98%   3354
+  99%   3701
+ 100%  27419 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 79824 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 78889 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+Completed 80000 requests
+Finished 80000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   46.413 seconds
+Complete requests:      80000
+Failed requests:        126
+   (Connect: 0, Receive: 0, Length: 126, Exceptions: 0)
+Total transferred:      23563420 bytes
+HTML transferred:       3913924 bytes
+Requests per second:    1723.66 [#/sec] (mean)
+Time per request:       2320.645 [ms] (mean)
+Time per request:       0.580 [ms] (mean, across all concurrent requests)
+Transfer rate:          495.79 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  445 893.3    143   15879
+Processing:    31  658 1997.0    306   44323
+Waiting:        0  623 1822.9    306   44323
+Total:         87 1103 2191.6    473   44532
+
+Percentage of the requests served within a certain time (ms)
+  50%    473
+  66%    680
+  75%   1198
+  80%   1384
+  90%   1875
+  95%   3462
+  98%   7042
+  99%   9854
+ 100%  44532 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 79090 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 8000 requests
+Completed 16000 requests
+Completed 24000 requests
+Completed 32000 requests
+Completed 40000 requests
+Completed 48000 requests
+Completed 56000 requests
+Completed 64000 requests
+Completed 72000 requests
+Completed 80000 requests
+Finished 80000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   69.368 seconds
+Complete requests:      80000
+Failed requests:        295
+   (Connect: 0, Receive: 0, Length: 295, Exceptions: 0)
+Total transferred:      23513860 bytes
+HTML transferred:       3905692 bytes
+Requests per second:    1153.26 [#/sec] (mean)
+Time per request:       4335.523 [ms] (mean)
+Time per request:       0.867 [ms] (mean, across all concurrent requests)
+Transfer rate:          331.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  584 1131.4    187   16056
+Processing:    66  817 2851.6    352   67898
+Waiting:        0  710 2074.7    350   62903
+Total:        152 1401 3062.8    640   67898
+
+Percentage of the requests served within a certain time (ms)
+  50%    640
+  66%   1022
+  75%   1447
+  80%   1584
+  90%   2654
+  95%   3768
+  98%   7691
+  99%  15858
+ 100%  67898 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+Completed 90000 requests
+Finished 90000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   47.555 seconds
+Complete requests:      90000
+Failed requests:        0
+Total transferred:      26550000 bytes
+HTML transferred:       4410000 bytes
+Requests per second:    1892.55 [#/sec] (mean)
+Time per request:       264.194 [ms] (mean)
+Time per request:       0.528 [ms] (mean, across all concurrent requests)
+Transfer rate:          545.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       14  190 1918.2     38   31733
+Processing:    15   48  41.5     42    1878
+Waiting:        7   47  40.5     41    1878
+Total:         29  238 1919.4     79   31848
+
+Percentage of the requests served within a certain time (ms)
+  50%     79
+  66%    116
+  75%    125
+  80%    131
+  90%    149
+  95%    197
+  98%    271
+  99%   1136
+ 100%  31848 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+Completed 90000 requests
+Finished 90000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   48.112 seconds
+Complete requests:      90000
+Failed requests:        11
+   (Connect: 0, Receive: 0, Length: 11, Exceptions: 0)
+Total transferred:      26549115 bytes
+HTML transferred:       4409853 bytes
+Requests per second:    1870.64 [#/sec] (mean)
+Time per request:       534.576 [ms] (mean)
+Time per request:       0.535 [ms] (mean, across all concurrent requests)
+Transfer rate:          538.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  137 254.4     88   15544
+Processing:    36  148 190.7    123   20182
+Waiting:       36  145 150.8    122    4751
+Total:         92  284 320.2    215   20182
+
+Percentage of the requests served within a certain time (ms)
+  50%    215
+  66%    230
+  75%    244
+  80%    263
+  90%    332
+  95%    817
+  98%   1231
+  99%   1290
+ 100%  20182 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+Completed 90000 requests
+Finished 90000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   47.694 seconds
+Complete requests:      90000
+Failed requests:        20
+   (Connect: 0, Receive: 0, Length: 20, Exceptions: 0)
+Total transferred:      26545280 bytes
+HTML transferred:       4409216 bytes
+Requests per second:    1887.04 [#/sec] (mean)
+Time per request:       794.896 [ms] (mean)
+Time per request:       0.530 [ms] (mean, across all concurrent requests)
+Transfer rate:          543.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  227 599.2     96   15698
+Processing:    30  213 356.2    173   20449
+Waiting:       30  208 233.7    172   11787
+Total:        109  441 700.1    278   20449
+
+Percentage of the requests served within a certain time (ms)
+  50%    278
+  66%    308
+  75%    351
+  80%    396
+  90%   1015
+  95%   1295
+  98%   1533
+  99%   2533
+ 100%  20449 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 83460 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 89957 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 89278 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 89628 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 89568 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 39116 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 9000 requests
+Completed 18000 requests
+Completed 27000 requests
+Completed 36000 requests
+Completed 45000 requests
+Completed 54000 requests
+Completed 63000 requests
+Completed 72000 requests
+Completed 81000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 89506 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+Completed 100000 requests
+Finished 100000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   45.373 seconds
+Complete requests:      100000
+Failed requests:        0
+Total transferred:      29500000 bytes
+HTML transferred:       4900000 bytes
+Requests per second:    2203.98 [#/sec] (mean)
+Time per request:       226.863 [ms] (mean)
+Time per request:       0.454 [ms] (mean, across all concurrent requests)
+Transfer rate:          634.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       14  171 1514.6     43   32632
+Processing:    14   50  21.0     47     555
+Waiting:       14   50  20.0     46     539
+Total:         29  222 1514.3     89   32693
+
+Percentage of the requests served within a certain time (ms)
+  50%     89
+  66%    122
+  75%    130
+  80%    134
+  90%    145
+  95%    161
+  98%   1056
+  99%   1114
+ 100%  32693 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 82186 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+Completed 100000 requests
+Finished 100000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   52.977 seconds
+Complete requests:      100000
+Failed requests:        20
+   (Connect: 0, Receive: 0, Length: 20, Exceptions: 0)
+Total transferred:      29494690 bytes
+HTML transferred:       4899118 bytes
+Requests per second:    1887.61 [#/sec] (mean)
+Time per request:       794.654 [ms] (mean)
+Time per request:       0.530 [ms] (mean, across all concurrent requests)
+Transfer rate:          543.70 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  211 518.0     90   31667
+Processing:    23  249 607.6    169   21314
+Waiting:       23  244 541.5    169   14320
+Total:         61  461 810.6    264   31912
+
+Percentage of the requests served within a certain time (ms)
+  50%    264
+  66%    298
+  75%    347
+  80%    388
+  90%   1045
+  95%   1310
+  98%   2595
+  99%   3283
+ 100%  31912 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 99740 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+Completed 100000 requests
+Finished 100000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   50.024 seconds
+Complete requests:      100000
+Failed requests:        60
+   (Connect: 0, Receive: 0, Length: 60, Exceptions: 0)
+Total transferred:      29482300 bytes
+HTML transferred:       4897060 bytes
+Requests per second:    1999.04 [#/sec] (mean)
+Time per request:       1250.600 [ms] (mean)
+Time per request:       0.500 [ms] (mean, across all concurrent requests)
+Transfer rate:          575.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  326 626.0    107   17220
+Processing:    63  363 727.8    275   34629
+Waiting:        0  349 531.2    274   34628
+Total:        144  689 972.7    392   36102
+
+Percentage of the requests served within a certain time (ms)
+  50%    392
+  66%    511
+  75%    615
+  80%    714
+  90%   1403
+  95%   1656
+  98%   3361
+  99%   3635
+ 100%  36102 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 99795 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+Completed 100000 requests
+Finished 100000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   49.796 seconds
+Complete requests:      100000
+Failed requests:        203
+   (Connect: 0, Receive: 0, Length: 203, Exceptions: 0)
+Total transferred:      29440115 bytes
+HTML transferred:       4890053 bytes
+Requests per second:    2008.18 [#/sec] (mean)
+Time per request:       1742.871 [ms] (mean)
+Time per request:       0.498 [ms] (mean, across all concurrent requests)
+Transfer rate:          577.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  433 894.9    121   16560
+Processing:    60  486 1237.8    325   41226
+Waiting:        0  443 827.4    324   41225
+Total:        146  919 1543.6    475   41609
+
+Percentage of the requests served within a certain time (ms)
+  50%    475
+  66%    672
+  75%    836
+  80%   1367
+  90%   1651
+  95%   2456
+  98%   3746
+  99%   7464
+ 100%  41609 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 99556 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+Completed 30000 requests
+Completed 40000 requests
+Completed 50000 requests
+Completed 60000 requests
+Completed 70000 requests
+Completed 80000 requests
+Completed 90000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 99517 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 10000 requests
+Completed 20000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 20112 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking http: (be patient)
+apr_sockaddr_info_get() for http:: Name or service not known (670002)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9885 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9814 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9852 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9304 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9660 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9729 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9624 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9744 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9711 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 9339 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 19902 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 19768 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 19520 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 19819 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+Completed 8000 requests
+Completed 10000 requests
+Completed 12000 requests
+Completed 14000 requests
+Completed 16000 requests
+Completed 18000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 19612 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+Completed 2000 requests
+Completed 4000 requests
+Completed 6000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        10918 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   9.304 seconds
+Complete requests:      7412
+Failed requests:        0
+Total transferred:      91081096 bytes
+HTML transferred:       88519196 bytes
+Requests per second:    796.61 [#/sec] (mean)
+Time per request:       3765.962 [ms] (mean)
+Time per request:       1.255 [ms] (mean, across all concurrent requests)
+Transfer rate:          9559.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       20  249 472.0     34    5082
+Processing:    21 1015 1563.1    412    9070
+Waiting:       20  257 712.2     42    7582
+Total:         47 1263 1747.8    510    9253
+
+Percentage of the requests served within a certain time (ms)
+  50%    510
+  66%   1071
+  75%   1521
+  80%   1989
+  90%   3614
+  95%   5246
+  98%   7245
+  99%   8260
+ 100%   9253 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        10918 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   0.517 seconds
+Complete requests:      24
+Failed requests:        0
+Total transferred:      466960 bytes
+HTML transferred:       431614 bytes
+Requests per second:    46.41 [#/sec] (mean)
+Time per request:       75411.729 [ms] (mean)
+Time per request:       21.546 [ms] (mean, across all concurrent requests)
+Transfer rate:          881.86 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      275  291  22.8    283     345
+Processing:    73   94  20.7    107     119
+Waiting:       72   93  20.0    107     118
+Total:        357  385  17.0    388     418
+
+Percentage of the requests served within a certain time (ms)
+  50%    388
+  66%    390
+  75%    393
+  80%    394
+  90%    403
+  95%    417
+  98%    418
+  99%    418
+ 100%    418 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   0.137 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   0.123 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   0.141 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   0.102 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        10918 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   0.495 seconds
+Complete requests:      31
+Failed requests:        0
+Total transferred:      942008 bytes
+HTML transferred:       851314 bytes
+Requests per second:    62.58 [#/sec] (mean)
+Time per request:       15978.387 [ms] (mean)
+Time per request:       15.978 [ms] (mean, across all concurrent requests)
+Transfer rate:          1857.21 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      102  115   3.6    116     118
+Processing:    92  147  54.8    127     314
+Waiting:       92  141  45.3    125     213
+Total:        210  263  53.8    235     430
+
+Percentage of the requests served within a certain time (ms)
+  50%    228
+  66%    301
+  75%    306
+  80%    307
+  90%    311
+  95%    333
+  98%    430
+  99%    430
+ 100%    430 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   0.054 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   0.053 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   0.046 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   1.926 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   4.299 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   0.096 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   0.315 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.246.111.132 (be patient)
+
+
+Server Software:        
+Server Hostname:        35.246.111.132
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   0.468 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 3896 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 46 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 116 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 144 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 51 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 1 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+Completed 2000 requests
+apr_socket_recv: Connection reset by peer (104)
+Total of 2357 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 66 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 31 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 3 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 59 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 12 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+Total of 8 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+apr_socket_recv: Connection reset by peer (104)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   0.179 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   0.341 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   0.151 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   0.181 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   0.247 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   0.234 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   0.157 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   0.483 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   0.009 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   0.023 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   0.027 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   0.019 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   0.023 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   0.030 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   0.032 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   0.016 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   0.007 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   0.020 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   0.011 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   0.023 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   0.025 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   0.016 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      500
+Time taken for tests:   0.022 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   0.015 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      1500
+Time taken for tests:   0.022 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2000
+Time taken for tests:   0.035 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      2500
+Time taken for tests:   0.013 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      3000
+Time taken for tests:   0.021 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      3500
+Time taken for tests:   0.020 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4000
+Time taken for tests:   0.012 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      4500
+Time taken for tests:   0.027 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 34.105.221.31 (be patient)
+
+
+Server Software:        
+Server Hostname:        34.105.221.31
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        0 bytes
+
+Concurrency Level:      5000
+Time taken for tests:   0.033 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes

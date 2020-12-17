@@ -1,0 +1,495 @@
+Concurrency Level:      50
+Time taken for tests:   0.721 seconds
+Complete requests:      1000
+Requests per second:    1386.66 [#/sec] (mean)
+Transfer rate:          399.48 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   0.536 seconds
+Complete requests:      1000
+Requests per second:    1866.54 [#/sec] (mean)
+Transfer rate:          537.72 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   0.523 seconds
+Complete requests:      1000
+Requests per second:    1910.29 [#/sec] (mean)
+Transfer rate:          550.33 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   0.497 seconds
+Complete requests:      1000
+Requests per second:    2011.95 [#/sec] (mean)
+Transfer rate:          579.61 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   0.362 seconds
+Complete requests:      1000
+Requests per second:    2760.73 [#/sec] (mean)
+Transfer rate:          795.33 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   0.633 seconds
+Complete requests:      1000
+Requests per second:    1579.48 [#/sec] (mean)
+Transfer rate:          455.03 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   0.272 seconds
+Complete requests:      1000
+Requests per second:    3682.47 [#/sec] (mean)
+Transfer rate:          1060.87 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   0.415 seconds
+Complete requests:      1000
+Requests per second:    2409.93 [#/sec] (mean)
+Transfer rate:          694.27 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   0.421 seconds
+Complete requests:      1000
+Requests per second:    2377.92 [#/sec] (mean)
+Transfer rate:          685.05 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   0.633 seconds
+Complete requests:      1000
+Requests per second:    1580.51 [#/sec] (mean)
+Transfer rate:          455.32 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   1.378 seconds
+Complete requests:      2000
+Requests per second:    1451.38 [#/sec] (mean)
+Transfer rate:          418.12 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   0.808 seconds
+Complete requests:      2000
+Requests per second:    2476.15 [#/sec] (mean)
+Transfer rate:          713.34 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   1.826 seconds
+Complete requests:      2000
+Requests per second:    1095.19 [#/sec] (mean)
+Transfer rate:          315.51 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   4.543 seconds
+Complete requests:      2000
+Requests per second:    440.21 [#/sec] (mean)
+Transfer rate:          126.82 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   0.568 seconds
+Complete requests:      2000
+Requests per second:    3518.27 [#/sec] (mean)
+Transfer rate:          1013.56 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   0.711 seconds
+Complete requests:      2000
+Requests per second:    2814.74 [#/sec] (mean)
+Transfer rate:          810.89 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   0.857 seconds
+Complete requests:      2000
+Requests per second:    2333.47 [#/sec] (mean)
+Transfer rate:          672.24 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   1.077 seconds
+Complete requests:      2000
+Requests per second:    1856.87 [#/sec] (mean)
+Transfer rate:          534.94 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   0.579 seconds
+Complete requests:      2000
+Requests per second:    3452.28 [#/sec] (mean)
+Transfer rate:          994.55 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   0.642 seconds
+Complete requests:      2000
+Requests per second:    3116.09 [#/sec] (mean)
+Transfer rate:          897.70 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   4.718 seconds
+Complete requests:      3000
+Requests per second:    635.91 [#/sec] (mean)
+Transfer rate:          183.20 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   16.884 seconds
+Complete requests:      3000
+Requests per second:    177.68 [#/sec] (mean)
+Transfer rate:          51.19 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   1.109 seconds
+Complete requests:      3000
+Requests per second:    2705.14 [#/sec] (mean)
+Transfer rate:          779.31 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   1.517 seconds
+Complete requests:      3000
+Requests per second:    1977.45 [#/sec] (mean)
+Transfer rate:          569.67 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   1.104 seconds
+Complete requests:      3000
+Requests per second:    2717.71 [#/sec] (mean)
+Transfer rate:          782.93 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   1.142 seconds
+Complete requests:      3000
+Requests per second:    2626.67 [#/sec] (mean)
+Transfer rate:          756.71 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   0.922 seconds
+Complete requests:      3000
+Requests per second:    3253.40 [#/sec] (mean)
+Transfer rate:          937.26 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   1.481 seconds
+Complete requests:      3000
+Requests per second:    2025.56 [#/sec] (mean)
+Transfer rate:          583.54 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   0.946 seconds
+Complete requests:      3000
+Requests per second:    3171.50 [#/sec] (mean)
+Transfer rate:          913.66 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   0.863 seconds
+Complete requests:      3000
+Requests per second:    3474.90 [#/sec] (mean)
+Transfer rate:          1001.07 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   3.239 seconds
+Complete requests:      4000
+Requests per second:    1234.89 [#/sec] (mean)
+Transfer rate:          355.75 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   1.698 seconds
+Complete requests:      4000
+Requests per second:    2355.93 [#/sec] (mean)
+Transfer rate:          678.71 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   1.563 seconds
+Complete requests:      4000
+Requests per second:    2558.68 [#/sec] (mean)
+Transfer rate:          737.12 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   1.191 seconds
+Complete requests:      4000
+Requests per second:    3358.76 [#/sec] (mean)
+Transfer rate:          967.61 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   1.103 seconds
+Complete requests:      4000
+Requests per second:    3627.95 [#/sec] (mean)
+Transfer rate:          1045.16 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   1.438 seconds
+Complete requests:      4000
+Requests per second:    2781.36 [#/sec] (mean)
+Transfer rate:          801.27 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   1.094 seconds
+Complete requests:      4000
+Requests per second:    3655.25 [#/sec] (mean)
+Transfer rate:          1053.03 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   1.731 seconds
+Complete requests:      4000
+Requests per second:    2310.79 [#/sec] (mean)
+Transfer rate:          665.71 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   1.457 seconds
+Complete requests:      4000
+Requests per second:    2745.94 [#/sec] (mean)
+Transfer rate:          791.07 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   3.691 seconds
+Complete requests:      5000
+Requests per second:    1354.69 [#/sec] (mean)
+Transfer rate:          390.27 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   2.442 seconds
+Complete requests:      5000
+Requests per second:    2047.51 [#/sec] (mean)
+Transfer rate:          589.86 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   2.054 seconds
+Complete requests:      5000
+Requests per second:    2434.54 [#/sec] (mean)
+Transfer rate:          701.36 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   2.152 seconds
+Complete requests:      5000
+Requests per second:    2323.96 [#/sec] (mean)
+Transfer rate:          669.50 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   1.438 seconds
+Complete requests:      5000
+Requests per second:    3476.83 [#/sec] (mean)
+Transfer rate:          1001.63 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   1.455 seconds
+Complete requests:      5000
+Requests per second:    3435.76 [#/sec] (mean)
+Transfer rate:          989.79 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   1.783 seconds
+Complete requests:      5000
+Requests per second:    2804.09 [#/sec] (mean)
+Transfer rate:          807.82 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   1.557 seconds
+Complete requests:      5000
+Requests per second:    3211.20 [#/sec] (mean)
+Transfer rate:          925.10 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   1.543 seconds
+Complete requests:      5000
+Requests per second:    3240.28 [#/sec] (mean)
+Transfer rate:          933.48 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   1.675 seconds
+Complete requests:      5000
+Requests per second:    2985.67 [#/sec] (mean)
+Transfer rate:          860.13 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   5.107 seconds
+Complete requests:      6000
+Requests per second:    1174.83 [#/sec] (mean)
+Transfer rate:          338.45 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   2.659 seconds
+Complete requests:      6000
+Requests per second:    2256.35 [#/sec] (mean)
+Transfer rate:          650.02 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   2.717 seconds
+Complete requests:      6000
+Requests per second:    2208.66 [#/sec] (mean)
+Transfer rate:          636.28 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   2.108 seconds
+Complete requests:      6000
+Requests per second:    2846.21 [#/sec] (mean)
+Transfer rate:          819.95 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   2.918 seconds
+Complete requests:      6000
+Requests per second:    2056.24 [#/sec] (mean)
+Transfer rate:          592.37 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   1.783 seconds
+Complete requests:      6000
+Requests per second:    3365.85 [#/sec] (mean)
+Transfer rate:          969.65 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   1.718 seconds
+Complete requests:      6000
+Requests per second:    3492.75 [#/sec] (mean)
+Transfer rate:          1006.21 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   2.348 seconds
+Complete requests:      6000
+Requests per second:    2554.93 [#/sec] (mean)
+Transfer rate:          736.04 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   1.816 seconds
+Complete requests:      6000
+Requests per second:    3303.16 [#/sec] (mean)
+Transfer rate:          951.59 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   1.898 seconds
+Complete requests:      6000
+Requests per second:    3160.97 [#/sec] (mean)
+Transfer rate:          910.63 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   37.028 seconds
+Complete requests:      7000
+Requests per second:    189.04 [#/sec] (mean)
+Transfer rate:          54.46 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   3.339 seconds
+Complete requests:      7000
+Requests per second:    2096.61 [#/sec] (mean)
+Transfer rate:          604.00 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   2.907 seconds
+Complete requests:      7000
+Requests per second:    2408.05 [#/sec] (mean)
+Transfer rate:          693.72 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   2.582 seconds
+Complete requests:      7000
+Requests per second:    2711.36 [#/sec] (mean)
+Transfer rate:          781.10 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   3.261 seconds
+Complete requests:      7000
+Requests per second:    2146.56 [#/sec] (mean)
+Transfer rate:          618.39 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   2.469 seconds
+Complete requests:      7000
+Requests per second:    2834.74 [#/sec] (mean)
+Transfer rate:          816.65 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   2.509 seconds
+Complete requests:      7000
+Requests per second:    2790.07 [#/sec] (mean)
+Transfer rate:          803.78 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   2.530 seconds
+Complete requests:      7000
+Requests per second:    2767.27 [#/sec] (mean)
+Transfer rate:          797.21 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   2.110 seconds
+Complete requests:      7000
+Requests per second:    3318.15 [#/sec] (mean)
+Transfer rate:          955.91 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   2.061 seconds
+Complete requests:      7000
+Requests per second:    3396.80 [#/sec] (mean)
+Transfer rate:          978.57 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   6.942 seconds
+Complete requests:      8000
+Requests per second:    1152.37 [#/sec] (mean)
+Transfer rate:          331.98 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   3.997 seconds
+Complete requests:      8000
+Requests per second:    2001.35 [#/sec] (mean)
+Transfer rate:          576.56 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   3.129 seconds
+Complete requests:      8000
+Requests per second:    2557.06 [#/sec] (mean)
+Transfer rate:          736.65 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   2.964 seconds
+Complete requests:      8000
+Requests per second:    2698.89 [#/sec] (mean)
+Transfer rate:          777.51 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   3.150 seconds
+Complete requests:      8000
+Requests per second:    2539.56 [#/sec] (mean)
+Transfer rate:          731.61 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   2.348 seconds
+Complete requests:      8000
+Requests per second:    3407.24 [#/sec] (mean)
+Transfer rate:          981.58 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   2.448 seconds
+Complete requests:      8000
+Requests per second:    3268.23 [#/sec] (mean)
+Transfer rate:          941.53 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   2.394 seconds
+Complete requests:      8000
+Requests per second:    3341.20 [#/sec] (mean)
+Transfer rate:          962.55 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   2.254 seconds
+Complete requests:      8000
+Requests per second:    3549.32 [#/sec] (mean)
+Transfer rate:          1022.51 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   2.232 seconds
+Complete requests:      8000
+Requests per second:    3584.78 [#/sec] (mean)
+Transfer rate:          1032.73 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   7.109 seconds
+Complete requests:      9000
+Requests per second:    1266.01 [#/sec] (mean)
+Transfer rate:          364.72 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   4.158 seconds
+Complete requests:      9000
+Requests per second:    2164.50 [#/sec] (mean)
+Transfer rate:          623.56 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   3.336 seconds
+Complete requests:      9000
+Requests per second:    2697.79 [#/sec] (mean)
+Transfer rate:          777.19 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   3.966 seconds
+Complete requests:      9000
+Requests per second:    2269.31 [#/sec] (mean)
+Transfer rate:          653.76 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   3.145 seconds
+Complete requests:      9000
+Requests per second:    2861.34 [#/sec] (mean)
+Transfer rate:          824.31 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   2.775 seconds
+Complete requests:      9000
+Requests per second:    3243.57 [#/sec] (mean)
+Transfer rate:          934.43 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   3.137 seconds
+Complete requests:      9000
+Requests per second:    2869.32 [#/sec] (mean)
+Transfer rate:          826.61 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   2.643 seconds
+Complete requests:      9000
+Requests per second:    3405.84 [#/sec] (mean)
+Transfer rate:          981.17 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   2.726 seconds
+Complete requests:      9000
+Requests per second:    3301.27 [#/sec] (mean)
+Transfer rate:          951.05 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   2.646 seconds
+Complete requests:      9000
+Requests per second:    3401.51 [#/sec] (mean)
+Transfer rate:          979.93 [Kbytes/sec] received
+Concurrency Level:      50
+Time taken for tests:   8.126 seconds
+Complete requests:      10000
+Requests per second:    1230.66 [#/sec] (mean)
+Transfer rate:          354.53 [Kbytes/sec] received
+Concurrency Level:      100
+Time taken for tests:   4.548 seconds
+Complete requests:      10000
+Requests per second:    2198.97 [#/sec] (mean)
+Transfer rate:          633.49 [Kbytes/sec] received
+Concurrency Level:      150
+Time taken for tests:   4.100 seconds
+Complete requests:      10000
+Requests per second:    2438.93 [#/sec] (mean)
+Transfer rate:          702.62 [Kbytes/sec] received
+Concurrency Level:      200
+Time taken for tests:   3.237 seconds
+Complete requests:      10000
+Requests per second:    3089.41 [#/sec] (mean)
+Transfer rate:          890.02 [Kbytes/sec] received
+Concurrency Level:      250
+Time taken for tests:   3.056 seconds
+Complete requests:      10000
+Requests per second:    3272.35 [#/sec] (mean)
+Transfer rate:          942.72 [Kbytes/sec] received
+Concurrency Level:      300
+Time taken for tests:   3.077 seconds
+Complete requests:      10000
+Requests per second:    3250.22 [#/sec] (mean)
+Transfer rate:          936.34 [Kbytes/sec] received
+Concurrency Level:      350
+Time taken for tests:   3.100 seconds
+Complete requests:      10000
+Requests per second:    3225.99 [#/sec] (mean)
+Transfer rate:          929.36 [Kbytes/sec] received
+Concurrency Level:      400
+Time taken for tests:   3.126 seconds
+Complete requests:      10000
+Requests per second:    3199.27 [#/sec] (mean)
+Transfer rate:          921.67 [Kbytes/sec] received
+Concurrency Level:      450
+Time taken for tests:   3.080 seconds
+Complete requests:      10000
+Requests per second:    3246.98 [#/sec] (mean)
+Transfer rate:          935.41 [Kbytes/sec] received
+Concurrency Level:      500
+Time taken for tests:   3.252 seconds
+Complete requests:      10000
+Requests per second:    3075.19 [#/sec] (mean)
+Transfer rate:          885.92 [Kbytes/sec] received

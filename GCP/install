@@ -1,0 +1,15 @@
+sudo apt-get update;
+sudo apt install apache2 -y;
+sudo service apache2 start;
+sudo echo '<h1><center>Built using Terraform!</center></h1>' | sudo tee /var/www/html/index2.html
+curl -sSO https://dl.google.com/cloudagents/add-monitoring-agent-repo.sh
+sudo bash add-monitoring-agent-repo.sh
+sudo apt-get update -y
+sudo apt-get install stackdriver-agent -y
+sudo service stackdriver-agent start
+curl -sSO https://dl.google.com/cloudagents/add-logging-agent-repo.sh
+sudo bash add-logging-agent-repo.sh
+sudo apt-get update -y
+sudo apt-get install google-fluentd -y
+sudo apt-get install google-fluentd-catch-all-config-structured -y
+sudo service google-fluentd start

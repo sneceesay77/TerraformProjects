@@ -5,22 +5,23 @@ provider "aws" {
   region = "eu-west-2"
 }
 
-terraform {
-  backend "s3" {
-    #Bucket information
-    bucket = "project3-bucket-fanbondi"
-    key = "global/s3/terraform.tfstate"
-    region = "eu-west-2"
+// terraform {
+//   backend "s3" {
+//     #Bucket information
+//     bucket = "project3-bucket-fanbondi"
+//     key = "global/s3/terraform.tfstate"
+//     region = "eu-west-2"
 
-    #DynamoDB information
-    dynamodb_table = "project3-locks"
-    encrypt = true
-  }
-}
+//     #DynamoDB information
+//     dynamodb_table = "project3-locks"
+//     encrypt = true
+//   }
+// }
 
 #Create an S3 bicket
 resource "aws_s3_bucket" "project3-state" {
   bucket = "project3-bucket-fanbondi"
+  force_destroy = true
 
   #Prevent accidental deletion, even with terraform destroy. 
   #To delete comment it out. 
@@ -73,16 +74,3 @@ resource "aws_instance" "example" {
   ami = "ami-0287acb18b6d8efff"
   instance_type = "t2.micro"
 }
-
-// terraform {
-//   backend "s3" {
-//     #Bucket information
-//     bucket = "project3-bucket-fanbondi"
-//     key = "workspaces-example/terraform.tfstate"
-//     region = "eu-west-2"
-
-//     #DynamoDB information
-//     dynamodb_table = "project3-locks"
-//     encrypt = true
-//   }
-// }

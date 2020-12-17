@@ -1,0 +1,650 @@
+Now running test for 1000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 2000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 3000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 4000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 5000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 6000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 7000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 8000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 9000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Now running test for 10000 request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.134.119.238 (be patient)
+Now running test for 1000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   2.693 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      295000 bytes
+HTML transferred:       49000 bytes
+Requests per second:    371.37 [#/sec] (mean)
+Time per request:       1346.375 [ms] (mean)
+Time per request:       2.693 [ms] (mean, across all concurrent requests)
+Transfer rate:          106.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       14   44  17.5     51      70
+Processing:    31  185 546.9     68    2648
+Waiting:       31  184 546.9     68    2648
+Total:         48  228 545.7    116    2683
+
+Percentage of the requests served within a certain time (ms)
+  50%    116
+  66%    133
+  75%    135
+  80%    136
+  90%    143
+  95%    151
+  98%   2682
+  99%   2682
+ 100%   2683 (longest request)
+===========================Completed=====================================
+Now running test for 2000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 200 requests
+Completed 400 requests
+Completed 600 requests
+Completed 800 requests
+Completed 1000 requests
+Completed 1200 requests
+Completed 1400 requests
+Completed 1600 requests
+Completed 1800 requests
+Completed 2000 requests
+Finished 2000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   0.569 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      590000 bytes
+HTML transferred:       98000 bytes
+Requests per second:    3517.62 [#/sec] (mean)
+Time per request:       142.142 [ms] (mean)
+Time per request:       0.284 [ms] (mean, across all concurrent requests)
+Transfer rate:          1013.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       21   43   9.5     42      70
+Processing:    36   78  77.4     56     405
+Waiting:       36   78  77.4     56     405
+Total:         63  121  76.3    101     441
+
+Percentage of the requests served within a certain time (ms)
+  50%    101
+  66%    109
+  75%    114
+  80%    119
+  90%    136
+  95%    385
+  98%    402
+  99%    407
+ 100%    441 (longest request)
+===========================Completed=====================================
+Now running test for 3000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 300 requests
+Completed 600 requests
+Completed 900 requests
+Completed 1200 requests
+Completed 1500 requests
+Completed 1800 requests
+Completed 2100 requests
+Completed 2400 requests
+Completed 2700 requests
+Completed 3000 requests
+Finished 3000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   0.908 seconds
+Complete requests:      3000
+Failed requests:        0
+Total transferred:      885000 bytes
+HTML transferred:       147000 bytes
+Requests per second:    3303.94 [#/sec] (mean)
+Time per request:       151.335 [ms] (mean)
+Time per request:       0.303 [ms] (mean, across all concurrent requests)
+Transfer rate:          951.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       36   61   8.6     62      85
+Processing:    45   76  33.7     72     366
+Waiting:       45   76  33.7     72     366
+Total:         81  138  34.7    134     433
+
+Percentage of the requests served within a certain time (ms)
+  50%    134
+  66%    138
+  75%    141
+  80%    142
+  90%    146
+  95%    155
+  98%    166
+  99%    425
+ 100%    433 (longest request)
+===========================Completed=====================================
+Now running test for 4000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 400 requests
+Completed 800 requests
+Completed 1200 requests
+Completed 1600 requests
+Completed 2000 requests
+Completed 2400 requests
+Completed 2800 requests
+Completed 3200 requests
+Completed 3600 requests
+Completed 4000 requests
+Finished 4000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   1.190 seconds
+Complete requests:      4000
+Failed requests:        0
+Total transferred:      1180000 bytes
+HTML transferred:       196000 bytes
+Requests per second:    3362.71 [#/sec] (mean)
+Time per request:       148.690 [ms] (mean)
+Time per request:       0.297 [ms] (mean, across all concurrent requests)
+Transfer rate:          968.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       16   60  14.9     64      88
+Processing:    51   74  40.9     68     440
+Waiting:       51   74  40.1     68     369
+Total:         71  135  39.3    133     496
+
+Percentage of the requests served within a certain time (ms)
+  50%    133
+  66%    138
+  75%    141
+  80%    143
+  90%    151
+  95%    155
+  98%    364
+  99%    382
+ 100%    496 (longest request)
+===========================Completed=====================================
+Now running test for 5000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 500 requests
+Completed 1000 requests
+Completed 1500 requests
+Completed 2000 requests
+Completed 2500 requests
+Completed 3000 requests
+Completed 3500 requests
+Completed 4000 requests
+Completed 4500 requests
+Completed 5000 requests
+Finished 5000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   2.134 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      1475000 bytes
+HTML transferred:       245000 bytes
+Requests per second:    2342.56 [#/sec] (mean)
+Time per request:       213.441 [ms] (mean)
+Time per request:       0.427 [ms] (mean, across all concurrent requests)
+Transfer rate:          674.86 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       19   74  51.1     68    1116
+Processing:    38   93  74.9     76     722
+Waiting:       38   92  74.7     76     722
+Total:         62  166  96.5    145    1207
+
+Percentage of the requests served within a certain time (ms)
+  50%    145
+  66%    150
+  75%    158
+  80%    178
+  90%    224
+  95%    270
+  98%    458
+  99%    715
+ 100%   1207 (longest request)
+===========================Completed=====================================
+Now running test for 6000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 600 requests
+Completed 1200 requests
+Completed 1800 requests
+Completed 2400 requests
+Completed 3000 requests
+Completed 3600 requests
+Completed 4200 requests
+Completed 4800 requests
+Completed 5400 requests
+Completed 6000 requests
+Finished 6000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   1.899 seconds
+Complete requests:      6000
+Failed requests:        0
+Total transferred:      1770000 bytes
+HTML transferred:       294000 bytes
+Requests per second:    3159.49 [#/sec] (mean)
+Time per request:       158.254 [ms] (mean)
+Time per request:       0.317 [ms] (mean, across all concurrent requests)
+Transfer rate:          910.20 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       21   61  49.6     56    1090
+Processing:    36   88 179.1     62    1675
+Waiting:       36   88 179.0     61    1675
+Total:         77  149 189.0    121    1767
+
+Percentage of the requests served within a certain time (ms)
+  50%    121
+  66%    133
+  75%    139
+  80%    146
+  90%    155
+  95%    166
+  98%    421
+  99%   1704
+ 100%   1767 (longest request)
+===========================Completed=====================================
+Now running test for 7000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 700 requests
+Completed 1400 requests
+Completed 2100 requests
+Completed 2800 requests
+Completed 3500 requests
+Completed 4200 requests
+Completed 4900 requests
+Completed 5600 requests
+Completed 6300 requests
+Completed 7000 requests
+Finished 7000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   2.540 seconds
+Complete requests:      7000
+Failed requests:        0
+Total transferred:      2065000 bytes
+HTML transferred:       343000 bytes
+Requests per second:    2756.44 [#/sec] (mean)
+Time per request:       181.393 [ms] (mean)
+Time per request:       0.363 [ms] (mean, across all concurrent requests)
+Transfer rate:          794.09 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       26   75  73.7     68    1080
+Processing:    41   91  92.1     74     826
+Waiting:       41   91  91.6     73     826
+Total:         83  166 124.1    142    1153
+
+Percentage of the requests served within a certain time (ms)
+  50%    142
+  66%    153
+  75%    161
+  80%    169
+  90%    206
+  95%    233
+  98%    773
+  99%    871
+ 100%   1153 (longest request)
+===========================Completed=====================================
+Now running test for 8000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 800 requests
+Completed 1600 requests
+Completed 2400 requests
+Completed 3200 requests
+Completed 4000 requests
+Completed 4800 requests
+Completed 5600 requests
+Completed 6400 requests
+Completed 7200 requests
+Completed 8000 requests
+Finished 8000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   2.654 seconds
+Complete requests:      8000
+Failed requests:        0
+Total transferred:      2360000 bytes
+HTML transferred:       392000 bytes
+Requests per second:    3014.65 [#/sec] (mean)
+Time per request:       165.857 [ms] (mean)
+Time per request:       0.332 [ms] (mean, across all concurrent requests)
+Transfer rate:          868.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       19   95 207.4     48    1103
+Processing:    20   57  28.6     53     802
+Waiting:       20   57  27.3     53     802
+Total:         45  151 209.5    106    1180
+
+Percentage of the requests served within a certain time (ms)
+  50%    106
+  66%    126
+  75%    135
+  80%    146
+  90%    171
+  95%    191
+  98%   1111
+  99%   1124
+ 100%   1180 (longest request)
+===========================Completed=====================================
+Now running test for 9000, request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 900 requests
+Completed 1800 requests
+Completed 2700 requests
+Completed 3600 requests
+Completed 4500 requests
+Completed 5400 requests
+apr_pollset_poll: The timeout specified has expired (70007)
+===========================Completed=====================================
+Completed 6300 requests
+Completed 7200 requests
+Completed 8100 requests
+Completed 9000 requests
+Finished 9000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   3.102 seconds
+Complete requests:      9000
+Failed requests:        0
+Total transferred:      2655000 bytes
+HTML transferred:       441000 bytes
+Requests per second:    2901.12 [#/sec] (mean)
+Time per request:       172.347 [ms] (mean)
+Time per request:       0.345 [ms] (mean, across all concurrent requests)
+Transfer rate:          835.77 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       18   64  65.4     61    1104
+Processing:    21   70  51.7     67     863
+Waiting:       21   70  49.5     67     863
+Total:         50  135  89.3    131    1209
+
+Percentage of the requests served within a certain time (ms)
+  50%    131
+  66%    146
+  75%    157
+  80%    164
+  90%    186
+  95%    201
+  98%    225
+  99%    611
+ 100%   1209 (longest request)
+===========================Completed=====================================
+Now running test for 10000 request and concurrency level of 500
+=========================================================================
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 18.130.59.176 (be patient)
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Apache/2.4.29
+Server Hostname:        18.130.59.176
+Server Port:            80
+
+Document Path:          /index.html
+Document Length:        49 bytes
+
+Concurrency Level:      500
+Time taken for tests:   3.162 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2950000 bytes
+HTML transferred:       490000 bytes
+Requests per second:    3162.99 [#/sec] (mean)
+Time per request:       158.078 [ms] (mean)
+Time per request:       0.316 [ms] (mean, across all concurrent requests)
+Transfer rate:          911.21 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       16   70 117.6     51    1125
+Processing:    22   66  42.3     58     884
+Waiting:       22   65  41.9     58     883
+Total:         52  135 126.2    112    1205
+
+Percentage of the requests served within a certain time (ms)
+  50%    112
+  66%    126
+  75%    138
+  80%    145
+  90%    195
+  95%    247
+  98%    289
+  99%   1079
+ 100%   1205 (longest request)
+===========================Completed=====================================
